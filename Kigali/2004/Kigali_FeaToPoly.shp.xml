@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<metadata xml:lang="en"><Esri><CreaDate>20210804</CreaDate><CreaTime>20330200</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\program files (x86)\arcgis\desktop10.8\ArcToolbox\Toolboxes\Data Management Tools.tbx\FeatureToPolygon" Date="20210804" Time="203302">FeatureToPolygon fishnet_line "C:\Users\yuzho\Desktop\New experiment\2nd paper\raw data\2004\Kigali_FeaToPoly.shp" # ATTRIBUTES Rwanda_100m_2004</Process></lineage></DataProperties></Esri></metadata>
