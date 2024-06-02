@@ -8,11 +8,11 @@ Accurate detection of urban changes is critical for guiding city planning that l
 ## Methodology
 
 ### Local G Statistic
-The Local G statistic is used to identify clusters of high or low values in spatial data. The equation for the Local G* statistic is:
+The Local G statistic is used to identify clusters of high or low values in spatial data.
 
 
 ### Local Spatial Heteroscedasticity (LOSH)
-LOSH is used to detect local heterogeneity in spatial data. The equation for the LOSH statistic is:
+LOSH is used to detect local heterogeneity in spatial data.
 
 
 ### Urban Development Index (UDI)
@@ -35,6 +35,10 @@ The LOSH calculation is implemented in the `calculateLOSH` function, which compu
 
 ### Calculate Local G
 The Local G calculation is implemented in the `calculateGetisG` function, which computes the Local G* value for a given key list and data dictionary. The significance of the Local G values is also determined using Monte Carlo permutation tests.
+To reveal the absolute distributional dynamics instead of the relative ones, we adopt the resolution proposed by Tao and Chen (2022), which modifies the significance test by using
+the first year of observation as the benchmark when performing the local G analysis on spatial panel data.
+Tao, R., & Chen, Y. (2022). Applying local indicators of spatial association to analyze longitudinal data: The absolute perspective.
+Geographical Analysis. https://doi.org/10.1111/gean.12323
 
 ### Determine UDI
 The UDI values are determined based on the criteria mentioned above, using the calculated LOSH and Local G values and their significance.
